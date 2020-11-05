@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    background-color: rgb(214, 214, 214);
+}
+#navbar{
+    width: auto;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 1px;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 25%;
+}
+#masuk1{
+    background-color: rgb(247, 244, 244);
+    border:none;
+    box-shadow: 1px 1px 3px;
+    padding: 8px;
+    font-family: Arial black;
+    font-size: medium;
+    width: 90%;
+    border-radius: 20px;
+    left: 200%;
+    text-align: center;
+    color: grey;
+}
+#masuk2{
+    background-color:rgb(247, 244, 244);
+    border:none;
+    box-shadow: 1px 1px 3px;
+    padding: 8px;
+    font-family: Arial black;
+    font-size: medium;
+    width: 90%;
+    border-radius: 20px;
+    left: 210%;
+    text-align: center;
+    color: grey;
+    display: inline-block;
+}
+.atas{
+    background-color: white;
+    width: auto;
+    height: 260px;
+    box-shadow: 0px 2px 3px gray;
+}
+.penari img{
+    width: 200px;
+    position: relative;
+    left: 10%;
+    top: 10px;
+    border-radius: 80%;
+    display: inline-block;
+}
+.nama {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    bottom: 70%;
+    text-align: center;
+    width: 40%;
+}
+.ijazah{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 20%;
+    height: 45px;
+    padding: 15px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    background-color: #90cdf0;
+    box-shadow: 0px 2px 3px gray;
+}
+#tempat{
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: white;
+    width: 20%;
+    height: 45px;
+    padding: 15px;
+    box-shadow: 0px 2px 3px gray;
+}
+.tempat1{
+    background-color: rgb(199, 195, 195);
+    padding: 5px;
+    width: 95px;
+    border-radius: 10px;
+}
+.tempat2{
+    background-color: rgb(199, 195, 195);
+    padding: 5px;
+    width: 95px;
+    position: relative;
+    left: 130px;
+    bottom: 27px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#tingkatan{
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: white;
+    width: 20%;
+    height: 45px;
+    padding: 15px;
+    box-shadow: 0px 2px 3px gray;
+}
+.tingkatan{
+    background-color: rgb(199, 195, 195);
+    padding: 5px;
+    width: 60px;
+    border-radius: 10px;
+    
+}
+
+.biaya{
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: white;
+    width: 20%;
+    height: 20px;
+    padding: 15px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fedd9c;
+    box-shadow: 0px 2px 3px gray;
+}
+.tertarik input{
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: white;
+    width: 22%;
+    height: 45px;
+    padding: 15px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f9b8e1;
+    border: none;
+    box-shadow: 0px 2px 3px gray;
+}
+.tabel{
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: white;
+    width: 20%;
+    height: 220px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 3px gray;
+}
+.LB{
+    background-color: white;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    left: 580px;
+    bottom: 640px;
+    text-align: justify;
+    width: 40%;
+}
+.prestasi{
+    background-color: white;
+    padding: 15px;
+    position: relative;
+    left: 580px;
+    bottom: 630px;
+    text-align: justify;
+    width: 40%;
+}
+.list   {
+    position: relative;
+    left: -130px;
+    top: -20px;
+}
+.metode{
+    background-color: white;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    left: 580px;
+    bottom: 620px;
+    text-align: justify;
+    width: 40%;
+}

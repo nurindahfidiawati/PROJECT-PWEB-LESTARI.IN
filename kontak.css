@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+}
+#navbar{
+    width: auto;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 2px 5px;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 25%;
+}
+#masuk1{
+    background-color: rgb(247, 244, 244);
+    border:none;
+    box-shadow: 1px 1px 3px;
+    padding: 8px;
+    font-family: Arial black;
+    font-size: medium;
+    width: 90%;
+    border-radius: 20px;
+    left: 200%;
+    text-align: center;
+    color: grey;
+}
+#masuk2{
+    background-color:rgb(247, 244, 244);
+    border:none;
+    box-shadow: 1px 1px 3px;
+    padding: 8px;
+    font-family: Arial black;
+    font-size: medium;
+    width: 90%;
+    border-radius: 20px;
+    left: 210%;
+    text-align: center;
+    color: grey;
+    display: inline-block;
+}
+
+#form{
+    background-color: white;
+    box-shadow: 1px 1px 2px;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+
+.kotakutama{
+    background-color: white;
+    width: 70%;
+    height: 510px;
+    position: relative;
+    top: 80px;
+    text-align: left;
+    margin: auto;
+    box-shadow: 1px 1px 5px grey ;
+    
+}
+
+.form{
+    background-color: white;
+    width: 70%;
+    height: 470px;
+    padding: 20px;
+
+}
+
+.form hr{
+    width: 100%;
+}
+
+.kotakbiru{
+    background-color: #90cdf0;
+    width: 30%;
+    height: 470px;
+    position: absolute;
+    display: inline;
+    right: 0px;
+    top:0px;
+    padding: 20px;
+}
+
+.input{
+    box-shadow:1px 1px 3px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    width: 35%;
+
+}
+.input2{
+    box-shadow: 1px 1px 3px;
+    border: none;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px;
+    width: 35%;
+    position: relative;
+    left:7%;
+}
+.area{
+    width: 86%;
+    height: 110px;
+    border:none;
+    box-shadow: 1px 1px 3px;
+}
+
+.masuk{
+    position: relative;
+    left: 65%;
+    background-color: #90cdf0;
+    border:none;
+    box-shadow: 1px 1px 3px;
+    padding: 10px;
+    font-family: Arial black;
+    font-size: medium;
+    width: 20%;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+#navbar{
+    width: auto;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 2px;
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 25%;
+}
+#dashbord{
+    background-color:#90cdf0;
+    width: auto;
+    height: 50px;
+}
+.d{
+    position: relative;
+    bottom:20px;
+}
+.data{
+    box-shadow: 0px 0px 1px;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+}
+#ubah{
+    box-shadow: 1px 1px 2px;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+
+    background-color: rgb(235, 235, 235);
+}
+
+#submit{
+    box-shadow: 1px 1px 2px;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+
+    background-color: rgb(235, 235, 235);
+}
+.text{
+    position: relative;
+
+}
+
+.geser{
+    padding-left: 10%;
+}

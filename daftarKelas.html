@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>register</title>
+        <link rel="stylesheet" href="daftarKelas.css">
+    </head>
+    <body>
+        <div id="navbar">
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Mulai Mengajar</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </div>
+        <div>
+            <img src="image.jpg">
+            <form class="form">
+                <h2>Daftar Kelas</h2>
+                <div>
+                    <input class="input" type="text" name="name" placeholder="Nama lengkap"/>
+                </div>
+                <br>
+                <div>
+                    <input class="input" type="text" name="lahir" placeholder="Tempat lahir"/>
+                </div>
+                <br>
+                <div>
+                    <input class="input" type="date" min="1945-01-01"/>
+                </div>
+                <br>
+                <div>
+                    <label>Jenis Kelamin: </label><br>
+                    <label><input type="radio" name="jenis_kelamin" value="Laki-laki" checked/>laki-laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="Perempuan" checked/>Perempuan</label>
+                </div>
+                <br>
+                <div>
+                    <label>Alamat:</label><br>
+                    <textarea class="input" name="Alamat"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input class="input" type="text" name="nomor_telepon" placeholder="Nomor telepon"/>
+                </div>
+                <br>
+                <div>
+                <label>Pilihan kursus diadakan: </label><br>
+                <label><input type="radio" name="tempat" value="Di rumah murid" checked/>Di rumah murid</label>
+                <label><input type="radio" name="tempat" value="Di rumah guru" checked/>Di rumah guru</label>
+                </div>
+                <br>
+                <div>
+                    <label>Deskripsikan diri Anda</label><br>
+                    <textarea class="input" name="deskripsi"></textarea>
+                </div>
+                <br>
+                <div>
+                <input id="submit" type="submit" name="submit" value="Submit" />
+                </div>
+                <br>
+                <br>
+                <br>
+            </form>
+        </div>
+        <div>
+            
+        </div>
+    </body>
+</html>
