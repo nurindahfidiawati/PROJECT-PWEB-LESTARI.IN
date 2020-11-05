@@ -1,0 +1,204 @@
+*{ 
+    margin:0; 
+    padding: 0; 
+}
+
+   
+body { 
+    
+    font-family :Arial, Helvetica, sans-serif; 
+    margin-top :40px; } 
+.judul {
+     width: 800px; 
+    
+     margin: auto; 
+     
+     padding: 30px 0px 30px 0px; 
+     text-align: center; 
+     border-radius: 15px 15px 0px 0px;
+     } 
+    
+ .biodata { 
+    margin: auto; 
+} 
+form { 
+    padding: 10px; 
+} 
+
+.name{
+    box-shadow: 3px 2px 1px grey;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px;
+     font-variant-position: initial;
+     } 
+.ttl{
+    box-shadow: 3px 2px 1px grey;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px;
+ } 
+.alamat{ 
+    box-shadow: 3px 2px 1px grey;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px;
+} 
+.tarif{ 
+    box-shadow: 3px 2px 1px grey;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px; } 
+.pendidikan{ 
+    box-shadow: 3px 2px 1px grey;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px; } 
+.nilai{ 
+    box-shadow: 3px 2px 1px grey;
+    border: solid 2px;
+    border-color: lightslategray;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px 
+} 
+.ijazah{ 
+    box-shadow: 3px 2px 1px grey;
+    border: solid 2px;
+    border-color: lightslategray;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px 
+ } 
+.ktp{ 
+    box-shadow: 3px 2px 1px grey;
+    border: solid 2px;
+    border-color: lightslategray;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px 
+} 
+.fto{ 
+    box-shadow: 3px 2px 1px grey;
+    border: solid 2px;
+    border-color: lightslategray;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 6px; 
+     font-size: 12px 
+} 
+.jl{ 
+    margin-left: 15px; 
+    margin-top: 15px; } 
+    
+.plh{ 
+    margin-left: 260px;
+     margin-top: 15px; 
+} 
+.kirim{ 
+    background-color: #3baf9f; 
+    margin: 20px 0px 0px 20px; 
+    text-align: center; 
+    border-radius: 25px; 
+    border: 2px solid #336666 ; 
+    padding: 14px 110px; 
+    outline: none; 
+    color: #ffffff; 
+    cursor: pointer; 
+}
+#box1{
+    box-shadow: 3px 2px 1px grey;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 240px; 
+     border-radius: 6px; 
+     font-size: 12px;
+     border: solid 1px;
+     border-color: lightslategray;
+
+}
+#box2{
+    box-shadow: 3px 2px 1px grey;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 240px; 
+     border-radius: 6px; 
+     font-size: 12px;
+     border: solid 1px;
+     border-color: lightslategray;
+
+}
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+ }
+header #produk {
+    float : left;    
+}
+header #produk h1{
+    margin: 50px;
+    color:#fff;
+}
+header nav {
+    float :right;
+    margin-top:40px
+}
+header li{
+    float : left;
+    display : inline;
+    padding :0 40px 0 40px;
+}
+header a{
+    color:rgb(249, 184, 225);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ul {
+    margin : 0px;
+    padding: 0px;
+}
+header a:hover{
+    color:#eeb8da;
+    font-weight: bold;
+}
+
