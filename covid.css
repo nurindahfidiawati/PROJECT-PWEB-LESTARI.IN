@@ -1,0 +1,161 @@
+body{
+    margin: auto;
+    font-family: Helvetica;
+
+}
+.logo img{
+    width:70px;
+    margin-left: 50px;
+    margin-bottom:10px ;
+    
+}
+.header{
+    background-color: white;
+}
+header nav {
+    float :right;
+    margin-right: 65px;
+    margin-top: -50px;
+   
+    
+}
+header li{
+    float : left;
+    display : inline;
+    padding :0 10px 20px 40px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display : inline;
+}
+ul {
+    margin : 0px;
+    padding: 0px;
+}
+header a:hover{
+    color:#90cdf0;
+    font-weight: bold;
+}
+.masuk{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 1px;
+}
+.daftar{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+.container{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+}
+h1{
+    font-size: 40px;
+}
+
+
+.covid{
+    margin-left: 3%;
+}
+
+.covid img{
+    width: 97%;
+}
+.tangan img{
+    width: 200px;
+    margin-left: 10%;
+}
+.tangan1{
+    margin-left: 30%;
+    margin-right: 20%;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    font-size: 25px;
+    color: gray;
+}
+.tutupmulut1{
+    margin-left: 30%;
+    margin-right: 35%;
+    margin-top: 5%;
+    font-size: 25px;
+    color: gray;
+}
+.tutupmulut img{
+    width: 200px;
+    margin-left: 70%;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+}
+.masker img{
+    width: 200px;
+    margin-left: 10%;
+}
+.masker1{
+    margin-left: 30%;
+    margin-right: 20%;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    font-size: 25px;
+    color: gray;
+}
+.handsanitizer1{
+    margin-left: 30%;
+    margin-right: 35%;
+    margin-top: 5%;
+    font-size: 25px;
+    color: gray;
+}
+.handsanitizer img{
+    width: 200px;
+    margin-left: 70%;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    border-radius: 50%;
+}
+
+.sehat img{
+    width: 200px;
+    margin-left: 10%;
+}
+.sehat1{
+    margin-left: 30%;
+    margin-right: 20%;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    font-size: 25px;
+    color: gray;
+}
+
+.dokter1{
+    margin-left: 30%;
+    margin-right: 35%;
+    margin-top: 5%;
+    font-size: 25px;
+    color: gray;
+}
+.dokter img{
+    width: 200px;
+    margin-left: 70%;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    border-radius: 50%;
+}
