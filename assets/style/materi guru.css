@@ -3,12 +3,68 @@
     padding: 0; 
    
 }
+.logo img{
+    width:70px;
+    margin-left: 50px;
+    
+}
+header nav {
+    float :right;
+    margin-right: 65px;
+    margin-top: -50px;
+   
+    
+}
+header li{
+    float : left;
+    display : inline;
+    padding :0 10px 20px 40px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display : inline;
+}
+ul {
+    margin : 0px;
+    padding: 0px;
+}
+header a:hover{
+    color:#90cdf0;
+    font-weight: bold;
+}
+.masuk{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 1px;
+}
+.daftar{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+.container{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+}
 .halaman {
-    width: 1000px;
-    background-color: rgb(254,221,156,0.2);
+    width: 1200px;
+    background-color: rgb(144,205,240,0.2);
     margin: auto;
     border-radius: 30px;
     box-shadow: 3px 2px 1px ghostwhite;
+    margin-top: 20px;
 }
 .halaman h1{
     text-align: center;
@@ -17,6 +73,7 @@
     text-align: center;
     color: gray;
     font-weight: normal;
+    margin-bottom: 40px;
 }
 img{
     border-radius: 25px;
@@ -35,4 +92,70 @@ img{
     text-align: center;
     font-weight: normal;
 }
+.materi1 h3{
+    background-color: #f9b8e1;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5% ;
+    margin-top: 25px;
+}
+.belakang{
+    
+    height: 340px;
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer; 
+    margin-left: 97px;
+}
+.materi1{
+    border-radius: 25px;
+    margin-left:20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.belakang1{
+    
+    height: 340px;
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer; 
+    margin-left: 447px;
+    margin-top: -343px;
+}
+.belakang2{
+    
+    height: 340px;
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer; 
+    margin-left: 797px;
+    margin-top: -343px;
+}
+.belakang3{
+    margin-top: 70px;
+    height: 340px;
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer; 
+    margin-left: 97px;
+}
+.belakang4{
+    
+    height: 340px;
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer; 
+    margin-left: 447px;
+    margin-top: -343px;
+}
+.belakang5{
+    
+    height: 340px;
+    width: 300px;
+    border-radius: 25px;
+    cursor: pointer; 
+    margin-left: 797px;
+    margin-top: -343px;
+}
+
 
