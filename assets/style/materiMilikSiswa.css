@@ -71,9 +71,11 @@ header a:hover{
 }
 .halaman h4{
     text-align: center;
-    color: gray;
+    color: grey;
     font-weight: normal;
     margin-bottom: 40px;
+    font-size: x-large;
+   
 }
 img{
     border-radius: 25px;
@@ -93,7 +95,7 @@ img{
     font-weight: normal;
 }
 .materi1 h3{
-    background-color: #f9b8e1;
+    background-color:#fedd9c;
     text-align: center;
     border-radius: 30px;
     padding: 5% ;
@@ -157,5 +159,55 @@ img{
     margin-left: 797px;
     margin-top: -343px;
 }
+.kelas1 img{
+    border-radius: 0%;
+    border-style: groove;
+}
+.bg{
+    
+    height: 340px;
+    width: 300px;
+    cursor: pointer; 
+    margin-left: 97px;
+}
+.bg1{
+    
+    height: 340px;
+    width: 300px;
+    cursor: pointer; 
+    margin-left: 300px;
+    margin-top: -340px;
+}
+.bg2{
+    
+    height: 340px;
+    width: 300px;
+    cursor: pointer; 
+    margin-left: 503px;
+    margin-top: -340px;
+}
+.kelas1 h2{
+    border:1px solid grey;
+    text-align: center;
+    font-weight: normal;
+    width:200px;
+    margin-left: 14px;
+    font-size: small;
+}
+.bawah{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgba(144,205,240, 0.6);
+}
+.bawah li{
+    font-size: xx-large;
+    font-weight: bold;
+   
+}
+
 
 
