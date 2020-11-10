@@ -1,57 +1,135 @@
 body{
-    margin: 0;
+    margin: auto;
+    background-color:rgb(214, 214, 214) ;
 }
-#navbar{
-    width: auto;
-    height: 70px;
+.logo img{
+    width:70px;
+    margin-left: 50px;
+    margin-bottom:10px ;
+    
+}
+.header{
     background-color: white;
-    box-shadow: 0px 0px 2px;
 }
-ul,li{
-    list-style-type: none;
+header nav {
+    float :right;
+    margin-right: 65px;
+    margin-top: -50px;
+   
+}
+header li{
+    float : left;
+    display : inline;
+    padding :0 10px 20px 40px;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display : inline;
+}
+ul {
+    margin : 0px;
+    padding: 0px;
+}
+header a:hover{
+    color:#90cdf0;
+    font-weight: bold;
+}
+.masuk{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-right: 1px;
+}
+.daftar{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+.container{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+}
+.atas{
+    background-color: white;
+    width: 30%;
+    height: 600px;
     display: inline-block;
-    padding: 10px;
-    position: relative;
-    left: 25%;
-}
-#dashbord{
-    background-color:#90cdf0;
-    width: auto;
-    height: 50px;
-}
-.d{
-    position: relative;
-    bottom:20px;
-}
-.data{
-    box-shadow: 0px 0px 1px;
-    width: 30%;
-    padding: 10px;
-    position: relative;
-    background-color: white;
-}
-#ubah{
-    box-shadow: 1px 1px 2px;
-    width: 30%;
-    padding: 10px;
-    position: relative;
 
-    background-color: rgb(235, 235, 235);
 }
-
-#submit{
-    box-shadow: 1px 1px 2px;
-    width: 30%;
-    padding: 10px;
+.foto img{
+    width: 200px;
+    margin-top: 3%;
+    margin-left: 20%;
+    border-radius: 80%;
+    display: inline;
+}
+.nama {
+    display: inline-block;
     position: relative;
-
-    background-color: rgb(235, 235, 235);
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+}
+.profil input{
+    background-color: #90cdf0;
+    border: none;
+    margin-left: 20%;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0px 2px 7px gray;
+    border-radius: 15px;
+}
+.profil1 input{
+    background-color: #90cdf0;
+    border: none;
+    margin-left: 20%;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0px 2px 7px gray;
+    border-radius: 15px;
+}
+.email{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 20px;
+}
+.email1{
+    padding: 20px;
+    background-color: rgb(238, 235, 235);
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.identitas{
+    background-color:white;
+    font-size: 20px;
+    width: 62%;
+    padding: 50px;
+    float: right;
 }
 .text{
-    position: relative;
-
+    background-color: rgb(238, 235, 235);
+    border-radius: 15px;
+    padding: 20px;
 }
-
-.geser{
-    padding-left: 10%;
+.edit input{
+    background-color: #90cdf0;
+    border: none;
+    margin-left: 20%;
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0px 2px 7px gray;
+    border-radius: 15px;
 }
