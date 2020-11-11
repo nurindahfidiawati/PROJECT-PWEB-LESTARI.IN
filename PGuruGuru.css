@@ -55,6 +55,21 @@ header a:hover{
     margin-left: 10px;
     margin-right: 1px;
 }
+.bawah{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgba(144,205,240, 0.6);
+}
+.bawah li{
+    font-size: xx-large;
+    font-weight: bold;
+   
+}
+
 .container{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -182,25 +197,20 @@ header a:hover{
 }
 .LB{
     background-color: white;
-    display: inline-block;
+
     padding: 15px;
-    position: relative;
-    left: 580px;
-    bottom: 670px;
     text-align: justify;
-    width: 50%;
-    height: 150px;
+    width: 80%;
+    height: 230px;
     box-shadow: 2px 7px 7px gray;
     font-family: Helvetica;
 }
 .prestasi{
     background-color: white;
     padding: 15px;
-    position: relative;
-    left: 580px;
-    bottom: 640px;
+    height: 200px;
     text-align: justify;
-    width: 50%;
+    width: 80%;
     box-shadow: 2px 7px 7px gray;
     font-family: Helvetica;
 }
@@ -212,13 +222,15 @@ header a:hover{
 }
 .metode{
     background-color: white;
-    display: inline-block;
     padding: 15px;
-    position: relative;
-    left: 580px;
-    bottom: 610px;
     text-align: justify;
-    width: 50%;
+    width: 80%;
     box-shadow: 2px 7px 7px gray;
     font-family: Helvetica;
+}
+
+.baris2{
+    display: inline-block;
+    margin-left:550px;
+    margin-top: -800px;
 }

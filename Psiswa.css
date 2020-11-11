@@ -54,6 +54,21 @@ header a:hover{
     margin-left: 10px;
     margin-right: 1px;
 }
+.bawah{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgba(144,205,240, 0.6);
+}
+.bawah li{
+    font-size: xx-large;
+    font-weight: bold;
+   
+}
+
 .container{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
