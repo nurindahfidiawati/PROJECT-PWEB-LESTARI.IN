@@ -39,3 +39,182 @@ header a:hover{
     margin-left: 200px;
     margin-right: 1px;
 }
+.container{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+}
+.halaman {
+    width: 1200px;
+    background-color:#ffff ;
+    margin: auto;
+    border-radius: 30px;
+    border :1px solid #90cdf0;
+    box-shadow: 3px 2px 1px gray;
+    margin-top: 20px;
+}
+.melukis{
+    margin-top: 30px;
+    height: 100px;
+    width: 190px;
+    border: 1px solid #90cdf0;
+    background-color: #90cdf0;
+    box-shadow: 3px 3px 3px 3px gray;
+    cursor: pointer;
+    margin-left: 55px;
+}
+.melukis img{
+    width: 90px;
+    border-radius: 30%;
+    margin-left:  90px ;
+    margin-top: -110px;
+}
+.melukis p{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.Tari{
+    margin-top: -100px;
+    height: 100px;
+    width: 190px;
+    border: 1px solid #90cdf0;
+    background-color: #90cdf0;
+    box-shadow: 3px 3px 3px 3px gray;
+    cursor: pointer;
+    margin-left: 355px;
+}
+.Tari img{
+    width: 90px;
+    border-radius: 30%;
+    margin-left:  90px ;
+    margin-top: -110px;
+}
+.Tari p{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.nyanyi{
+    margin-top: -103px;
+    height: 100px;
+    width: 190px;
+    border: 1px solid #90cdf0;
+    background-color: #90cdf0;
+    box-shadow: 3px 3px 3px 3px gray;
+    cursor: pointer;
+    margin-left: 655px;
+}
+.nyanyi img{
+    width: 90px;
+    border-radius: 30%;
+    margin-left:  90px ;
+    margin-top: -110px;
+}
+.nyanyi p{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.batik{
+    margin-top: -104px;
+    height: 100px;
+    width: 190px;
+    border: 1px solid #90cdf0;
+    background-color: #90cdf0;
+    box-shadow: 3px 3px 3px 3px gray;
+    cursor: pointer;
+    margin-left: 955px;
+}
+.batik img{
+    width: 90px;
+    border-radius: 30%;
+    margin-left:  90px ;
+    margin-top: -110px;
+}
+.batik p{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.orang {
+    border:1px solid grey;
+    width:820px;
+    height:68px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.orang img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.reject{
+    border : 1px solid red;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: red;
+    font-size: x-large;
+    box-shadow: 3px 3px 3px 3px gray ;
+    cursor: pointer;
+    margin-top: -70px;
+    margin-left: 550px;
+}
+.acc{
+    border : 1px solid greenyellow;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color:greenyellow;
+    font-size: x-large;
+    box-shadow: 3px 3px 3px 3px gray ;
+    cursor: pointer;  
+    margin-top: -52px; 
+    margin-left: 657px;
+}
+.orang p{
+    font-size: xx-large;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.boxpinggir{
+    border: 1px solid grey;
+    width: 300px;
+    margin-left: 880px;
+    margin-top: -880px;
+}
+.boxpinggir img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 30px;  
+}
+.nama{
+    width:270px;
+    height: 40px;
+    margin-top: -50px;
+}
+.boxpinggir form{
+    margin-left: 10px;
+}
+.acc1{
+    margin-top: 50px;
+    margin-left: 100px;
+    border : 1px solid greenyellow;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color:greenyellow;
+    font-size: x-large;
+    box-shadow: 3px 3px 3px 3px gray ;
+    cursor: pointer;  
+}
