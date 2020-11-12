@@ -4,15 +4,13 @@ body{
 .logo img{
     width:70px;
     margin-left: 50px;
-    margin-bottom:10px ;
-
+    
 }
 header nav {
     float :right;
     margin-right: 65px;
     margin-top: -50px;
-   
-    
+
 }
 header li{
     float : left;
@@ -63,7 +61,11 @@ img{
 }
 
 form {
-    display: inline;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+ 
 }
 .input{
     box-shadow: 2px 5px 7px;
