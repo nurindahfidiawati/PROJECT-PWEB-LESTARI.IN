@@ -1,3 +1,6 @@
+body{
+    margin: auto;
+}
 .logo img{
     width:70px;
     margin-left: 50px;
@@ -7,8 +10,7 @@ header nav {
     float :right;
     margin-right: 65px;
     margin-top: -50px;
-   
-    
+
 }
 header li{
     float : left;

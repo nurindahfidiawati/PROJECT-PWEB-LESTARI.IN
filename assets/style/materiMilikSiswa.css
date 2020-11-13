@@ -1,7 +1,5 @@
-*{ 
-    margin:0; 
-    padding: 0; 
-   
+body{
+    margin: auto;
 }
 .logo img{
     width:70px;
@@ -12,8 +10,7 @@ header nav {
     float :right;
     margin-right: 65px;
     margin-top: -50px;
-   
-    
+
 }
 header li{
     float : left;
