@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
 body{
     margin: auto;
+    font-family: 'Quicksand', sans-serif;
 }
 .logo img{
     width:70px;
@@ -212,7 +214,7 @@ header a:hover{
     margin-top: 50px;
     margin-left: 100px;
     border : 1px solid greenyellow;
-    width: 100px;
+    width: 150px;
     height: 30px;
     text-align: center;
     color:greenyellow;

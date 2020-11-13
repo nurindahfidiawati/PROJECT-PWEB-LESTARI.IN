@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
 body{
     margin: auto;
+    font-family: 'Quicksand', sans-serif;
 }
 .logo img{
     width:70px;
     margin-left: 50px;
-    
+    margin-bottom:10px ;
 }
 header nav {
     float :right;
     margin-right: 65px;
     margin-top: -50px;
-
+   
 }
 header li{
     float : left;
@@ -228,7 +230,6 @@ form {
 .container{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    margin-top: -30px;
     overflow: hidden;
 
 }

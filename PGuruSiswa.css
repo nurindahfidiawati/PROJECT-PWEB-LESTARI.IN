@@ -152,7 +152,7 @@ header a:hover{
     background-color: #fedd9c;
     box-shadow: 2px 7px 7px gray;
 }
-.tertarik input{
+.tertarik{
     margin-left: 7%;
     margin-top: 1%;
     background-color: white;
@@ -166,6 +166,7 @@ header a:hover{
     background-color: #f9b8e1;
     border: none;
     box-shadow: 2px 7px 7px gray;
+
 }
 .tabel{
     margin-left: 7%;

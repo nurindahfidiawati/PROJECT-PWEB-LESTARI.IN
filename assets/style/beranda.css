@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
 body{
     margin: auto;
+    font-family: 'Quicksand', sans-serif;
 }
 .logo img{
     width:70px;
@@ -79,16 +81,37 @@ header a:hover{
     cursor: pointer; 
     margin-left: 70%;
     line-height: 30px;
-    
+    text-decoration: none;
+
 }
 h1{
     width: 470px;
     font-size: 55px;
     margin-left: 90px;
-    margin-top: 100px;
+    margin-top: 30px;
     text-shadow: 3px 2px 1px gray;
 }
+.covid{
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid red; 
+   font-size: x-large;
+}
+.covid a{
+    text-decoration: none;
+    color: red;
+}
+.bawah{
+    margin: auto;
+    overflow: hidden;
+    height: 50px;
+    background-color: rgba(144,205,240, 0.6);
+}
+.bawah li{
+    font-size: xx-large;
+    font-weight: bold;
    
+}
  
 
 
