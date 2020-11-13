@@ -66,7 +66,7 @@ form {
      width: 500px; 
      border-radius: 30px; 
      font-size: 12px;
-     font-variant-position: initial;
+    outline: none;
      } 
 .ttl{
     background-color: transparent;
@@ -78,6 +78,7 @@ form {
      width: 500px; 
      border-radius: 30px; 
      font-size: 12px;
+     outline: none;
  } 
 .alamat{ 
     background-color: transparent;
@@ -89,6 +90,7 @@ form {
      width: 500px; 
      border-radius: 30px; 
      font-size: 12px;
+     outline: none;
 } 
 .tarif{ 
     background-color:transparent;
@@ -101,6 +103,7 @@ form {
      border-radius: 30px; 
      font-size: 12px;
      margin-top: 30px;
+     outline: none;
      } 
      
 .pendidikan{ 
@@ -112,7 +115,8 @@ form {
     line-height: 35px;
      width: 500px; 
      border-radius: 30px; 
-     font-size: 12px; } 
+     font-size: 12px;
+     outline: none; } 
 .nilai{ 
     box-shadow: 3px 2px 1px grey;
     border: solid 2px;
@@ -125,6 +129,7 @@ form {
      border-radius: 30px; 
      font-size: 12px;
      margin-top: -30px;
+     outline: none;
 } 
 .ijazah{ 
     box-shadow: 3px 2px 1px grey;
@@ -136,7 +141,8 @@ form {
     line-height: 35px;
      width: 250px; 
      border-radius: 30px; 
-     font-size: 12px 
+     font-size: 12px;
+    outline: none; 
  } 
 .ktp{ 
     box-shadow: 3px 2px 1px grey;
@@ -148,7 +154,8 @@ form {
     line-height: 35px;
      width: 250px; 
      border-radius: 30px; 
-     font-size: 12px 
+     font-size: 12px ;
+     outline: none;
 } 
 .fto{ 
     box-shadow: 3px 2px 1px grey;
@@ -160,15 +167,18 @@ form {
     line-height: 35px;
      width: 250px; 
      border-radius: 30px; 
-     font-size: 12px 
+     font-size: 12px ;
+     outline: none;
 } 
 .jl{ 
     margin-left: 15px; 
-    margin-top: 15px; } 
+    margin-top: 15px;
+    outline: none; } 
     
 .plh{ 
     margin-left: 260px;
      margin-top: 15px; 
+     outline: none;
 } 
 .kirim{ 
     background-color: #fedd9c; 
@@ -181,6 +191,7 @@ form {
     cursor: pointer; 
     font-size: 20px;
     text-decoration: none;
+    outline: none;
 }
 #box1{
     box-shadow: 3px 2px 1px grey;
@@ -193,6 +204,7 @@ form {
      font-size: 12px;
      border: solid 1px;
      border-color: lightslategray;
+     outline: none;
 
 }
 #box2{
@@ -208,6 +220,7 @@ form {
      border-color: lightslategray;
      margin-left: 250px;
      margin-top: -73px;
+     outline: none;
 
 }
 
@@ -218,6 +231,7 @@ form {
     border-radius: 30px;
     margin-left: 200px;
     margin-right: 1px;
+
 }
 .daftar{
     border:2px solid #90cdf0;
@@ -230,7 +244,7 @@ form {
 .container{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    overflow: hidden;
+    
 
 }
 p{

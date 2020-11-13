@@ -204,6 +204,7 @@ header a:hover{
     width: 50%;
     box-shadow: 2px 7px 7px gray;
     font-family: Helvetica;
+    display: inline-block;
 }
 .list   {
     position: relative;
@@ -222,4 +223,15 @@ header a:hover{
     width: 50%;
     box-shadow: 2px 7px 7px gray;
     font-family: Helvetica;
+}
+.logout{
+    border:2px solid #90cdf0;
+    padding: 15px;
+   text-decoration: none;
+   color: black;
+    border-radius: 30px;
+}
+.keluar{
+    margin-top: -190px;
+    margin-left: 1220px; 
 }
