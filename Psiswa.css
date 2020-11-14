@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
 body{
     margin: auto;
-    background-color:rgb(214, 214, 214) ;
+    font-family: 'Quicksand', sans-serif;
 }
 .logo img{
     width:70px;
