@@ -72,6 +72,8 @@ img{
     border-radius: 30px;
     cursor: pointer; 
     height: 25px;
+    margin-top: -20px;
+    color:black;
    
 }
 .halaman {
@@ -175,6 +177,8 @@ header a:hover{
     border-radius: 30px;
     cursor: pointer; 
     height: 25px;
+    margin-top: -20px;
+    color:black;
 }
 .person3{
     margin-top: -343px;
@@ -211,6 +215,8 @@ header a:hover{
     border-radius: 30px;
     cursor: pointer; 
     height: 25px;
+    margin-top: -20px;
+    color:black;
 }
 
 .person4{
@@ -248,7 +254,8 @@ header a:hover{
     border-radius: 30px;
     cursor: pointer; 
     height: 25px;
-   
+    margin-top: -20px;
+    color:black;
 }
 .person5{
     margin-top: -343px;
@@ -285,12 +292,14 @@ header a:hover{
     border-radius: 30px;
     cursor: pointer; 
     height: 25px;
+    margin-top: -20px;
+    color:black;
 }
 .person6{
     margin-top: -343px;
     height: 340px;
     width: 300px;
-   border:1px solid grey;
+    border:1px solid grey;
     border-radius: 25px;
     cursor: pointer; 
     margin-left: 797px;
@@ -319,4 +328,6 @@ header a:hover{
     border-radius: 30px;
     cursor: pointer; 
     height: 25px;
+    margin-top: -20px;
+    color:black;
 }
