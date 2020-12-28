@@ -1,0 +1,2 @@
+
+document.getElementsByClass("nama").innerHTML = "Hai! perkenalkan saya Dina Yolanda Putri. Saya adalah pelatih tari gandrung professional  yang telah memiliki banyak pengalaman dan prestasi dalam  tari gandrung yang akan membantu anda mendalami tari gandrung serta memberikan pelatihan mulai dari tahap paling dasar.";

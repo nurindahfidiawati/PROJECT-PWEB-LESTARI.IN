@@ -56,6 +56,21 @@ header a:hover{
     margin-left: 10px;
     margin-right: 1px;
 }
+.bawah{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgba(144,205,240, 0.6);
+}
+.bawah li{
+    font-size: xx-large;
+    font-weight: bold;
+   
+}
+
 .container{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -66,21 +81,23 @@ header a:hover{
     background-color: white;
     width: auto;
     height: 260px;
-    box-shadow: 0px 2px 3px gray;
+    box-shadow: 8px 8px 15px gray;
 }
 .penari img{
     width: 200px;
     margin-left: 10%;
+    margin-top: 2%;
     border-radius: 80%;
     display: inline;
 }
 .nama {
     display: inline-block;
     position: relative;
-    left: 10%;
+    left: 30%;
     bottom: 70%;
     text-align: center;
     width: 40%;
+    margin-left: -150px;
 }
 .ijazah{
     margin-left: 7%;
@@ -92,26 +109,27 @@ header a:hover{
     font-size: 20px;
     background-color: #90cdf0;
     box-shadow: 2px 7px 7px gray;
-    font-family: Helvetica;
+    border-radius: 25px;
 }
 #tempat{
     margin-left: 7%;
     margin-top: 1%;
-    background-color: white;
+    background-color: #90cdf0;
     width: 30%;
     height: 45px;
     padding: 15px;
     box-shadow: 2px 7px 7px gray;
     font-family: Helvetica;
+    border-radius: 25px;
 }
 .tempat1{
-    background-color: rgb(199, 195, 195);
+    background-color: white;
     padding: 5px;
     width: 110px;
     border-radius: 10px;
 }
 .tempat2{
-    background-color: rgb(199, 195, 195);
+    background-color: white;
     padding: 6px;
     width: 100px;
     position: relative;
@@ -123,15 +141,16 @@ header a:hover{
 #tingkatan{
     margin-left: 7%;
     margin-top: 1%;
-    background-color: white;
+    background-color:  #90cdf0;
     width: 30%;
     height: 45px;
     padding: 15px;
     box-shadow: 2px 7px 7px gray;
     font-family: Helvetica;
+    border-radius: 25px;
 }
 .tingkatan{
-    background-color: rgb(199, 195, 195);
+    background-color: white;
     padding: 5px;
     width: 60px;
     border-radius: 10px;
@@ -152,8 +171,9 @@ header a:hover{
     border-radius: 20px;
     background-color: #fedd9c;
     box-shadow: 2px 7px 7px gray;
+     
 }
-.tertarik{
+.ubah input{
     margin-left: 7%;
     margin-top: 1%;
     background-color: white;
@@ -164,47 +184,44 @@ header a:hover{
     font-size: 20px;
     text-align: center;
     border-radius: 20px;
-    background-color: #f9b8e1;
+    background-color: #90cdf0;
     border: none;
     box-shadow: 2px 7px 7px gray;
-
 }
 .tabel{
     margin-left: 7%;
     margin-top: 1%;
     background-color: white;
+    box-shadow: 2px 7px 7px gray;
+    border-radius: 15px;
     width: 30%;
-    height: 220px;
+    height: 260px;
     padding-top: 25px;
     padding-left: 25px;
     font-size: 17px;
-    border-radius: 15px;
-    box-shadow: 2px 7px 7px gray;
-    font-family: Helvetica;
+    
+    
+    
 }
 .LB{
-    background-color: white;
-    display: inline-block;
+
     padding: 15px;
-    position: relative;
-    left: 580px;
-    bottom: 630px;
     text-align: justify;
-    width: 50%;
-    box-shadow: 2px 7px 7px gray;
+    width: 80%;
+    height: 230px;
+    border-radius: 35px;
+    background-color: rgb(243, 241, 241);
     font-family: Helvetica;
 }
 .prestasi{
-    background-color: white;
+ 
     padding: 15px;
-    position: relative;
-    left: 580px;
-    bottom: 620px;
+    height: 200px;
     text-align: justify;
-    width: 50%;
-    box-shadow: 2px 7px 7px gray;
-    font-family: Helvetica;
-    display: inline-block;
+    width: 80%;
+    border-radius: 35px;
+    background-color: rgb(243, 241, 241);
+    
 }
 .list   {
     position: relative;
@@ -213,14 +230,21 @@ header a:hover{
     
 }
 .metode{
-    background-color: white;
-    display: inline-block;
+ 
     padding: 15px;
-    position: relative;
-    left: 580px;
-    bottom: 610px;
     text-align: justify;
-    width: 50%;
-    box-shadow: 2px 7px 7px gray;
-    font-family: Helvetica;
+    width: 80%;
+    border-radius: 35px;
+    background-color: rgb(243, 241, 241);
+    
 }
+
+.baris2{
+    display: inline-block;
+    margin-left:550px;
+    margin-top: -800px;
+}
+
+/* footer{
+    background-color:#06213a ;
+} */
