@@ -3,79 +3,79 @@
     <head>
         <meta charset="UTF-8">
         <title>Daftar Kelas</title>
-        <link rel="stylesheet" href="daftarKelas.css">
+        <link rel="stylesheet" href="CSS/daftarKelas.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="JAVASCRIPT/javascript.js"></script>
     </head>
     <body>
-        <header>
-            <div class="container">  
-                <div div class="logo">
-                    <img src="logo.png">
-                </div>
-                <nav>
-                    <ul>
-                        <li class="aktiv"><a href="index.html">Beranda</a> </li>
-                        <li><a href="Daftar guru.html"> Mulai Mengajar </a> </li>
-                        <li><a> profile </a> </li>
-                        <li><a href="Tentang kami.html"> Tentang kami </a> </li>
-                        <li><a href="kontak.html"> Kontak </a> </li>
-                        <li class="masuk"><a href="login.html"> Masuk </a> </li>
-                        <li class="daftar"><a href="register.html"> Daftar </a> </li>
-                    </ul>
-                </nav>
+        <div class="container">
+            <header class="header">
+                    <div div class="logo">
+                        <img src="logo.png">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class="aktiv"><a href="index.html">Beranda</a> </li>
+                            <li><a href="Daftar guru.html"> Mulai Mengajar </a> </li>
+                            <li><a> profile </a> </li>
+                            <li><a href="Tentang kami.html"> Tentang kami </a> </li>
+                            <li><a href="kontak.html"> Kontak </a> </li>
+                            <li class="masuk"><a href="login.html"> Masuk </a> </li>
+                            <li class="daftar"><a href="register.html"> Daftar </a> </li>
+                        </ul>
+                    </nav>
+            </header>
+            <div>
+                <img class="image" src="GAMBAR/murid.png">
+                <form class="form">
+                    <h2 >Daftar Kelas</h2>
+                    <div>
+                        <input class="input" type="text" name="name" placeholder="Nama lengkap"/>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="input" type="text" name="lahir" placeholder="Tempat lahir"/>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="input" type="date" min="1945-01-01"/>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Jenis Kelamin: </label><br>
+                        <label><input type="radio" name="jenis_kelamin" value="Laki-laki" checked/>laki-laki</label>
+                        <label><input type="radio" name="jenis_kelamin" value="Perempuan" checked/>Perempuan</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Alamat:</label><br>
+                        <textarea class="input" name="Alamat"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input class="input" type="text" name="nomor_telepon" placeholder="Nomor telepon"/>
+                    </div>
+                    <br>
+                    <div>
+                    <label>Pilihan kursus diadakan: </label><br>
+                    <label><input type="radio" name="tempat" value="Di rumah murid" checked/>Di rumah murid</label>
+                    <label><input type="radio" name="tempat" value="Di rumah guru" checked/>Di rumah guru</label>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Deskripsikan diri Anda</label><br>
+                        <textarea class="input" name="deskripsi"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <button id="submit" type="button" onclick="myFunction()">Daftar</button>
+
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                </form>
             </div>
-        </header>
-        <div>
-            <img class="image" src="image.jpg">
-            <form class="form">
-                <h2>Daftar Kelas</h2>
-                <div>
-                    <input class="input" type="text" name="name" placeholder="Nama lengkap"/>
-                </div>
-                <br>
-                <div>
-                    <input class="input" type="text" name="lahir" placeholder="Tempat lahir"/>
-                </div>
-                <br>
-                <div>
-                    <input class="input" type="date" min="1945-01-01"/>
-                </div>
-                <br>
-                <div>
-                    <label>Jenis Kelamin: </label><br>
-                    <label><input type="radio" name="jenis_kelamin" value="Laki-laki" checked/>laki-laki</label>
-                    <label><input type="radio" name="jenis_kelamin" value="Perempuan" checked/>Perempuan</label>
-                </div>
-                <br>
-                <div>
-                    <label>Alamat:</label><br>
-                    <textarea class="input" name="Alamat"></textarea>
-                </div>
-                <br>
-                <div>
-                    <input class="input" type="text" name="nomor_telepon" placeholder="Nomor telepon"/>
-                </div>
-                <br>
-                <div>
-                <label>Pilihan kursus diadakan: </label><br>
-                <label><input type="radio" name="tempat" value="Di rumah murid" checked/>Di rumah murid</label>
-                <label><input type="radio" name="tempat" value="Di rumah guru" checked/>Di rumah guru</label>
-                </div>
-                <br>
-                <div>
-                    <label>Deskripsikan diri Anda</label><br>
-                    <textarea class="input" name="deskripsi"></textarea>
-                </div>
-                <br>
-                <div>
-                <a id="submit" href="PSiswa.html">Daftar</a>
-                </div>
-                <br>
-                <br>
-                <br>
-            </form>
-        </div>
-        <div>
-            
         </div>
     </body>
 </html>

@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>login</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="CSS/login.css">
+
 </head>
 <body >
     <header>
@@ -25,24 +26,44 @@
     </header>
     <section>
         <div>
-            <img class= "gambar1" src="image.jpg">
+            <img class= "gambar1" src="GAMBAR/login.png">
             <form id="form">    
-                <h1>Daftar Sekarang</h1>
+                <h1>Masuk Sekarang</h1>
                 <div>
-                    <input class="input" type="text" name="nama" placeholder="Nama Lengkap" />
+                    <input id="Username" type="text" name="username" placeholder="Username" />
+                </div>
+                <br>
+                <input type="Password" value="" id="Password" placeholder="Password">
+                <br>
+                <br>
+
+				<div style="float: left; margin-left: -4px;">
+					<input type="checkbox" id="chk">
+					<label id="showhide" class="label" style="color: red;">Show Password</label>
                 </div>
                 <br>
                 <div>
-                    <input class="input" type="email" name="email" placeholder="Email"/>
+                    <a href="#" id="popup" onclick="show_popup()" style="color: black;">Lupa Password ?</a>
                 </div>
                 <br>
-                <br>
                 <div>
-                    <a id="submit" href="beranda.html">Masuk</a>
+                    <button id="submit" type="button" value="Login" onclick="Login()">Masuk</button>
                 </div>
             </form>
         </div>
+        <div id="isipopup">
+            <div id="popupnya">
+                <form action="#" id="forgetpass" method="post" name="forgetpass">
+                    <img id="close" onclick ="hide_popup()">
+                    <h2 class="forget">Lupa Password</h2>
+                    <h5 class="h5">Masukkan Email Anda di bawah ini</h5>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <a onclick="check_empty()" id="submitpopup">Request Password Reset</a>
+                </form>
+            </div>
+        </div>
+
     </section>
-    
+    <script src="JAVASCRIPT/javascript.js " type="text/javascript"></script>
 </body>
 </html>
