@@ -43,7 +43,15 @@ header a:hover{
     margin-left: 200px;
     margin-right: 1px;
 }
-.container{
+.daftar{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+.header{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: auto;

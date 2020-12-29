@@ -51,7 +51,7 @@ header a:hover{
     margin-left: 10px;
     margin-right: 1px;
 }
-.container{
+.header{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: auto;
@@ -75,9 +75,9 @@ header a:hover{
     margin-bottom: 40px;
 }
 img{
-    border-radius: 25px;
-    margin-left:15px;
-    margin-right: 10px;
+    border-radius: 200px;
+    margin-left:40px;
+    width: auto;
 }
 .materi1{
     box-shadow: 4px 3px 2px rgba(144,205,240, 0.6);
@@ -92,11 +92,12 @@ img{
     font-weight: normal;
 }
 .materi1 h3{
-    background-color: #f9b8e1;
+    background-color: #3ea9e6;
     text-align: center;
     border-radius: 30px;
     padding: 5% ;
     margin-top: 25px;
+    transition:  1s,  2s;
 }
 .belakang{
     
@@ -111,6 +112,7 @@ img{
     margin-left:20px;
     margin-right: 10px;
     margin-top: 10px;
+    transition: 1s, 2s;
 }
 .belakang1{
     
