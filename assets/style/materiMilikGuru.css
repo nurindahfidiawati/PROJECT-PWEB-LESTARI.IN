@@ -36,6 +36,7 @@ header a:hover{
     font-weight: bold;
 }
 .masuk{
+    
     border:2px solid #90cdf0;
     padding: 15px;
     margin-top: -20px;
@@ -44,6 +45,7 @@ header a:hover{
     margin-right: 1px;
 }
 .daftar{
+
     border:2px solid #90cdf0;
     padding: 15px;
     margin-top: -20px;
@@ -51,7 +53,8 @@ header a:hover{
     margin-left: 10px;
     margin-right: 1px;
 }
-.container{
+.header{
+  
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: auto;
@@ -59,10 +62,10 @@ header a:hover{
 }
 .halaman {
     width: 1200px;
-    background-color: rgb(144,205,240,0.2);
+    display: grid;
     margin: auto;
     border-radius: 30px;
-    box-shadow: 3px 2px 1px ghostwhite;
+   
     margin-top: 20px;
 }
 .halaman h1{
@@ -77,12 +80,13 @@ header a:hover{
    
 }
 img{
-    border-radius: 25px;
-    margin-left:15px;
-    margin-right: 10px;
+    border-radius: 200px;
+    margin-left:45px;
+    /* margin-right: 10px; */
+    width: auto;
 }
 .materi1{
-    box-shadow: 4px 3px 2px rgba(144,205,240, 0.6);
+    
     height: 150px;
     width: 250px;
     background-color:  #ffffff;
@@ -92,17 +96,19 @@ img{
 .materi1 h2{
     text-align: center;
     font-weight: normal;
-    border:1px solid #90cdf0;
     margin-top: 20px;
-    background-color: #90cdf0;
+    background-color: #3ea9e6;
+    border-radius: 25px;
 }
 .belakang{
-    
+    display: grid;
     height: 340px;
     width: 300px;
     cursor: pointer; 
     margin-left: 97px;
-    border:1px solid grey;
+    border:1px solid #90cdf0;
+    border-radius: 25px;
+    
 }
 .materi1{
     border-radius: 25px;
@@ -111,57 +117,64 @@ img{
     margin-top: 10px;
 }
 .belakang1{
-    
+    display: grid;
     height: 340px;
     width: 300px;
     cursor: pointer; 
     margin-left: 447px;
     margin-top: -343px;
-    border:1px solid grey;
+    border:1px solid #90cdf0;
+    border-radius: 25px;
 }
 .belakang2{
-    
+    display: grid;
     height: 340px;
     width: 300px;
     cursor: pointer; 
     margin-left: 797px;
     margin-top: -343px;
-    border:1px solid grey;
+    border:1px solid #90cdf0;
+    border-radius: 25px;
 }
 .belakang3{
+    display: grid;
     margin-top: 70px;
     height: 340px;
     width: 300px;
     cursor: pointer; 
     margin-left: 97px;
-    border:1px solid grey;
+    border:1px solid #90cdf0;
+    border-radius: 25px;
 }
 .belakang4{
-    
+    display: grid;
     height: 340px;
     width: 300px;
     cursor: pointer; 
     margin-left: 447px;
     margin-top: -343px;
-    border:1px solid grey;
+    border:1px solid #90cdf0;
+    border-radius: 25px;
 }
 .belakang5{
-    
+    display: grid;
     height: 340px;
     width: 300px;
     cursor: pointer; 
     margin-left: 797px;
     margin-top: -343px;
-    border:1px solid grey;
+    border:1px solid #90cdf0;
+    border-radius: 25px;
 }
 .bawah{
+    display: grid;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: auto;
     overflow: hidden;
     margin-top: 20px;
     height: 50px;
-    background-color: rgba(144,205,240, 0.6);
+    background-color: rgba(144,205,240);
 }
 .bawah li{
     font-size: xx-large;
@@ -169,6 +182,7 @@ img{
    
 }
 #outtable{
+    display: grid;
     
     position: relative;
     padding: 20px;
@@ -186,7 +200,7 @@ table{
     border-collapse: collapse;
     font-family: arial;
     color:black;
-    background-color: cornsilk;
+    background-color:#ffffff ;
     
 }
 
@@ -199,13 +213,12 @@ tbody td{
     border-top: 1px solid #e3e3e3;
     padding: 10px;
 }
-
-tbody tr:nth-child(even){
-    background: #e3e3e3;
+thead tr{
+    background: #90cdf0;
 }
 
 tbody tr:hover{
-    background: #e3e3e3;
+    background: #ffffff;
 }
 .materi{
     border:1px solid grey;
@@ -225,5 +238,13 @@ h3{
     width: 50px;
     background-color:cornsilk;
 }   
+@media screen (max-width:1024px){
 
+}
+@media screen (max-width:768px){
+
+}
+@media screen (max-width:500px){
+
+}
 
