@@ -224,9 +224,8 @@ header a:hover{
     
 }
 .list   {
-    position: relative;
-    left: 90px;
-    top: -20px;
+    margin-left: 6%;
+
     
 }
 .metode{

@@ -66,29 +66,23 @@ header a:hover{
 }
 .search{
     box-shadow: 3px 2px 1px grey;
-    position: relative; 
-    left :260px; 
-    line-height: 45px;
-     width: 400px; 
-     border-radius: 30px; 
-     font-size: 12px;
-     
-     margin-left: 500px;
-     } 
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+
+
+}
 
 .button{ 
     background-color: #f9b8e1; 
     margin: 20px 0px 0px 20px; 
-    text-align: center; 
-    border-radius: 25px; 
-    border: 2px solid #336666 ; 
-    padding: 11px 30px; 
-    outline: none; 
-    color: #ffffff; 
-    cursor: pointer; 
-    margin-left: 70%;
-
-    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #336666 ;
+    text-decoration: none; 
 
 }
 h1{
@@ -97,6 +91,7 @@ h1{
     margin-left: 90px;
     margin-top: 30px;
     text-shadow: 3px 2px 1px gray;
+    color: white;
 }
 .covid{
     text-align: center;

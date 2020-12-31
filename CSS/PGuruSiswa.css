@@ -169,6 +169,7 @@ header a:hover{
     background-color: #f9b8e1;
     border: none;
     box-shadow: 2px 7px 7px gray;
+    text-decoration: none;
 
 }
 .tabel{
