@@ -96,7 +96,7 @@ header a:hover{
     text-decoration: none;
     border-radius: 15px;
     text-align: center;
-    float: left;
+    margin-left: 11%;
 }
 .click a{
     text-decoration:none;

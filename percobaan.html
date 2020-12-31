@@ -2,68 +2,30 @@
 <html>
 <head>
     <title>login</title>
-    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="CSS/percobaan.css">
 
 </head>
 <body >
     <header>
         <div class="container">  
-            <div div class="logo">
-                <img src="logo.png">
-            </div>
+            <!-- <div div class="logo">
+                
+            </div> -->
             <nav>
+                <div class="logo"><img src="logo.png"></div>
+                <div>
                 <ul>
                     <li class="aktiv"><a href="index.html">Beranda</a> </li>
                     <li><a href="Daftar guru.html"> Mulai Mengajar </a> </li>
                     <li><a> profile </a> </li>
                     <li><a href="Tentang kami.html"> Tentang kami </a> </li>
                     <li><a href="kontak.html"> Kontak </a> </li>
-                    <li class="masuk"><a href="login.html"> Masuk </a> </li>
-                    <li class="daftar"><a href="register.html"> Daftar </a> </li>
+                    <li ><a href="login.html"> Masuk </a> </li>
+                    <li ><a href="register.html"> Daftar </a> </li>
                 </ul>
+                </div>
             </nav>
         </div>
     </header>
-    <section>
-        <div>
-            <img class= "gambar1" src="GAMBAR/login.png">
-            <form id="form">    
-                <h1>Masuk Sekarang</h1>
-                <div>
-                    <input id="Username" type="text" name="username" placeholder="Username" />
-                </div>
-                <br>
-                <input type="Password" value="" id="Password" placeholder="Password">
-                <br>
-                <br>
-
-				<div style="float: left; margin-left: -4px;">
-					<input type="checkbox" id="chk">
-					<label id="showhide" class="label" style="color: red;">Show Password</label>
-                </div>
-                <br>
-                <div>
-                    <a href="#" id="popup" onclick="show_popup()" style="color: black;">Lupa Password ?</a>
-                </div>
-                <br>
-                <div>
-                    <button id="submit" type="button" value="Login" onclick="Login()">Masuk</button>
-                </div>
-            </form>
-        </div>
-        <div id="isipopup">
-            <div id="popupnya">
-                <form action="#" id="forgetpass" method="post" name="forgetpass">
-                    <img id="close" onclick ="hide_popup()">
-                    <h2 class="forget">Lupa Password</h2>
-                    <h5 class="h5">Masukkan Email Anda di bawah ini</h5>
-                    <input type="email" id="email" name="email" placeholder="Email">
-                    <a onclick="check_empty()" id="submitpopup">Request Password Reset</a>
-                </form>
-            </div>
-        </div>
-
-    </section>
-    <script src="JAVASCRIPT/javascript.js " type="text/javascript"></script>
 </body>
 </html>
