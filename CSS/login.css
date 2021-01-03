@@ -65,9 +65,8 @@ header a:hover{
 
 }
 .gambar1{
-    position: relative;
-    top: 50px;
-    left: 50px;
+    margin-left: 2%;
+    margin-top: 5%;
     width: 700px;
 }
 #Username{
@@ -97,7 +96,7 @@ header a:hover{
     text-decoration: none;
     border-radius: 15px;
     text-align: center;
-    float: left;
+    margin-left: 11%;
 }
 .click a{
     text-decoration:none;

@@ -1,5 +1,6 @@
 function myFunction(){
-    confirm("Apakah Anda yakin ingin mendaftar?")
+    alert("Apakah Anda yakin ingin mendaftar?");
+    document.location="PSiswa.html"
 }
 
 function kirim(){
