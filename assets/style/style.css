@@ -39,115 +39,118 @@ header a:hover{
      width: 800px; 
      margin: auto; 
      padding: 30px 0px 30px 0px; 
-     text-align: center; 
+     margin-left: 770px; 
      border-radius: 15px 15px 0px 0px;
      } 
     
-.biodata { 
-    
-        width: 1000px;
-        background-color: rgb(144,205,240,0.2);
-        margin: auto;
-        border-radius: 30px;
-        box-shadow: 3px 2px 1px ghostwhite;
-    
-} 
+
 form { 
     padding: 10px; 
+    margin-left: 500px;
+    margin-top: -650px;
 } 
 
 .name{
-    background-color: transparent;
-    box-shadow: 3px 2px 1px grey;
+    box-shadow: 2px 5px 7px;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
     line-height: 35px;
      width: 500px; 
-     border-radius: 30px; 
+     border-radius: 15px; 
      font-size: 12px;
     outline: none;
+    padding: 10px;
+    border: none;
+    height: 20px;
+     } 
+.tarif{
+    box-shadow: 2px 5px 7px;
+    position: relative; 
+    left :260px; 
+    margin-bottom: 30px;
+    line-height: 35px;
+     width: 500px; 
+     border-radius: 15px; 
+     font-size: 12px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    height: 20px;
      } 
 .ttl{
-    background-color: transparent;
-    box-shadow: 3px 2px 1px grey;
+    box-shadow: 2px 5px 7px;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
     line-height: 35px;
      width: 500px; 
-     border-radius: 30px; 
+     border-radius: 15px; 
      font-size: 12px;
-     outline: none;
+    outline: none;
+    padding: 10px;
+    border: none;
+    height: 20px;
  } 
 .alamat{ 
-    background-color: transparent;
-    box-shadow: 3px 2px 1px grey;
+    box-shadow: 2px 5px 7px;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
     line-height: 35px;
      width: 500px; 
-     border-radius: 30px; 
+     border-radius: 15px; 
      font-size: 12px;
-     outline: none;
-} 
-.tarif{ 
-    background-color:transparent;
-    box-shadow: 3px 2px 1px grey;
-    position: relative; 
-    left :260px; 
-    margin-bottom: 30px;
-    line-height: 35px;
-     width: 500px; 
-     border-radius: 30px; 
-     font-size: 12px;
-     margin-top: 30px;
-     outline: none;
+    outline: none;
+    padding: 10px;
+    border: none;
+    height: 20px;
      } 
      
 .pendidikan{ 
-    background-color: transparent;
-    box-shadow: 3px 2px 1px grey;
+    box-shadow: 2px 5px 7px;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
     line-height: 35px;
      width: 500px; 
-     border-radius: 30px; 
+     border-radius: 15px; 
      font-size: 12px;
-     outline: none; } 
+    outline: none;
+    padding: 10px;
+    border: none;
+    height: 20px; } 
 .nilai{ 
-    box-shadow: 3px 2px 1px grey;
-    border: solid 2px;
-    border-color: lightslategray;
+    box-shadow: 2px 5px 7px;
+    border: none;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
     line-height: 35px;
      width: 250px; 
      border-radius: 30px; 
-     font-size: 12px;
-     margin-top: -30px;
+     font-size: 12px ;
      outline: none;
+     padding: 10px;
+     height: 20px;
 } 
 .ijazah{ 
-    box-shadow: 3px 2px 1px grey;
-    border: solid 2px;
-    border-color: lightslategray;
+    box-shadow: 2px 5px 7px;
+    border: none;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
     line-height: 35px;
      width: 250px; 
      border-radius: 30px; 
-     font-size: 12px;
-    outline: none; 
+     font-size: 12px ;
+     outline: none;
+     padding: 10px;
+     height: 20px;
  } 
 .ktp{ 
-    box-shadow: 3px 2px 1px grey;
-    border: solid 2px;
-    border-color: lightslategray;
+    box-shadow: 2px 5px 7px;
+    border: none;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
@@ -156,11 +159,12 @@ form {
      border-radius: 30px; 
      font-size: 12px ;
      outline: none;
+     padding: 10px;
+     height: 20px;
 } 
 .fto{ 
-    box-shadow: 3px 2px 1px grey;
-    border: solid 2px;
-    border-color: lightslategray;
+    box-shadow: 2px 5px 7px;
+    border: none;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
@@ -169,6 +173,8 @@ form {
      border-radius: 30px; 
      font-size: 12px ;
      outline: none;
+     padding: 10px;
+     height: 20px;
 } 
 .jl{ 
     margin-left: 15px; 
@@ -181,7 +187,7 @@ form {
      outline: none;
 } 
 .kirim{ 
-    background-color: #fedd9c; 
+    background-color: #3ea9e6; 
     margin-left: 500px;
     text-align: center; 
     border-radius: 25px; 
@@ -194,7 +200,7 @@ form {
     outline: none;
 }
 #box1{
-    box-shadow: 3px 2px 1px grey;
+    box-shadow: 2px 5px 7px;
     position: relative; 
     left :260px; 
     margin-bottom: 30px;
@@ -202,13 +208,12 @@ form {
      width: 240px; 
      border-radius: 30px; 
      font-size: 12px;
-     border: solid 1px;
-     border-color: lightslategray;
+     border: none;
      outline: none;
 
 }
 #box2{
-    box-shadow: 3px 2px 1px grey;
+    box-shadow: 2px 5px 7px;
     position: relative; 
     left :260px; 
     margin-bottom: 15px;
@@ -216,8 +221,7 @@ form {
      width: 240px; 
      border-radius: 30px; 
      font-size: 12px;
-     border: solid 1px;
-     border-color: lightslategray;
+    border: none;
      margin-left: 250px;
      margin-top: -73px;
      outline: none;
@@ -233,15 +237,8 @@ form {
     margin-right: 1px;
 
 }
-.daftar{
-    border:2px solid #90cdf0;
-    padding: 15px;
-    margin-top: -20px;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-right: 1px;
-}
-.container{
+
+.header{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     
@@ -252,5 +249,11 @@ p{
     margin-top: -50px;
    font-style: italic;
    color : gray;
+}
+.image{
+    
+    margin-top: 8%;
+    left: 50px;
+    width: 57%;
 }
 
