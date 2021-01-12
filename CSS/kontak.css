@@ -56,7 +56,7 @@ header a:hover{
     margin-left: 10px;
     margin-right: 1px;
 }
-.container{
+.header{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: auto;
@@ -132,4 +132,103 @@ header a:hover{
     width: 20%;
     border-radius: 20px;
     margin-left: 70%;
+}
+@media screen and (max-width: 720px) {
+    body{
+       
+        font-size: 12px;
+       
+    }
+    .logo img{
+        width:7%;
+        
+    }
+    
+    header li{
+        margin-top: 40px;
+        display: flex;
+        padding :0 10px 10px 10px;
+        font-size: 9px;
+        justify-content: center;
+    
+    }
+    header a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-top: 20px;
+        display : flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+    
+    
+    .masuk{
+       
+        border:none;
+        margin-left: 100px;
+        margin-right: 1px;
+        height: 20px;
+        margin-top: 20px;
+        
+    }
+    .daftar{
+        border:none;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 1px;
+        height: 20px;
+        
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width :992px){
+    body{
+        
+        font-size: 12px;
+       
+    }
+    .logo img{
+        width:7%;
+        
+    }
+    
+    header li{
+        margin-top: 40px;
+        display: flex;
+        padding :0 10px 10px 10px;
+        font-size: 9px;
+        justify-content: center;
+    
+    }
+    header a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-top: 20px;
+        display : flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+    
+    
+    .masuk{
+       
+        border:none;
+        margin-left: 100px;
+        margin-right: 1px;
+        height: 20px;
+        margin-top: 20px;
+        
+    }
+    .daftar{
+        border:none;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 1px;
+        height: 20px;
+        
+    }
 }
