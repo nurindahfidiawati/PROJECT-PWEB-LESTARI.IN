@@ -340,8 +340,7 @@ header a:hover{
 
 @media screen and (max-width: 720px) {
     body{
-        margin: auto;
-        font-family: 'Quicksand', sans-serif;
+       
         font-size: 12px;
        
     }
@@ -402,8 +401,7 @@ header a:hover{
 }
 @media screen and (min-width: 720px) and (max-width :992px){
     body{
-        margin: auto;
-        font-family: 'Quicksand', sans-serif;
+        
         font-size: 12px;
        
     }
