@@ -9,7 +9,7 @@ body{
     
 }
 header nav {
-    display: ;
+    /* display: f; */
     float :right;
     margin-right: 65px;
     margin-top: -50px;
@@ -187,6 +187,14 @@ img{
     margin-left: 503px;
     margin-top: -340px;
 }
+.bg3{
+    
+    height: 340px;
+    width: 300px;
+    cursor: pointer; 
+    margin-left: 703px;
+    margin-top: -340px;
+}
 .kelas1 h2{
    
     text-align: center;
@@ -209,6 +217,104 @@ img{
     font-weight: bold;
    
 }
+@media screen and (max-width: 720px) {
+    body{
+       
+        font-size: 12px;
+       
+    }
+    .logo img{
+        width:7%;
+        
+    }
+    
+    header li{
+        margin-top: 40px;
+        display: flex;
+        padding :0 10px 10px 10px;
+        font-size: 9px;
+        justify-content: center;
+    
+    }
+    header a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-top: 20px;
+        display : flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+    
+    
+    .masuk{
+       
+        border:none;
+        margin-left: 100px;
+        margin-right: 1px;
+        height: 20px;
+        margin-top: 20px;
+        
+    }
+    .daftar{
+        border:none;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 1px;
+        height: 20px;
+        
+    }
+}
 
+@media screen and (min-width: 720px) and (max-width :992px){
+    body{
+        
+        font-size: 12px;
+       
+    }
+    .logo img{
+        width:7%;
+        
+    }
+    
+    header li{
+        margin-top: 40px;
+        display: flex;
+        padding :0 10px 10px 10px;
+        font-size: 9px;
+        justify-content: center;
+    
+    }
+    header a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-top: 20px;
+        display : flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+    
+    
+    .masuk{
+       
+        border:none;
+        margin-left: 100px;
+        margin-right: 1px;
+        height: 20px;
+        margin-top: 20px;
+        
+    }
+    .daftar{
+        border:none;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 1px;
+        height: 20px;
+        
+    }
+}
 
 
