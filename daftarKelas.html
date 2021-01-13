@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <title>Daftar Kelas</title>
         <link rel="stylesheet" href="CSS/daftarKelas.css">
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="JAVASCRIPT/javascript.js"></script>
     </head>
     <body>
@@ -38,7 +41,7 @@
                     </div>
                     <br>
                     <div>
-                        <input class="input" type="date" min="1945-01-01"/>
+                        <input class="date" type="text" placeholder="tanggal lahir" />
                     </div>
                     <br>
                     <div>
@@ -75,6 +78,11 @@
                     <br>
                     <br>
                 </form>
+                <script>
+                    $(function(){
+                        $(".date").datepicker();
+                    });
+                </script>
             </div>
         </div>
     </body>

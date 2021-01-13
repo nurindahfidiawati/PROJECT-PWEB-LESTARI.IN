@@ -237,6 +237,15 @@ form {
     margin-right: 1px;
 
 }
+.daftar{
+    border:2px solid #90cdf0;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
 
 .header{
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
@@ -256,4 +265,102 @@ p{
     left: 50px;
     width: 57%;
 }
+@media screen and (max-width: 720px) {
+    body{
+       
+        font-size: 12px;
+       
+    }
+    .logo img{
+        width:7%;
+        
+    }
+    
+    header li{
+        margin-top: 40px;
+        display: flex;
+        padding :0 10px 10px 10px;
+        font-size: 9px;
+        justify-content: center;
+    
+    }
+    header a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-top: 20px;
+        display : flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+    
+    
+    .masuk{
+       
+        border:none;
+        margin-left: 100px;
+        margin-right: 1px;
+        height: 20px;
+        margin-top: 20px;
+        
+    }
+    .daftar{
+        border:none;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 1px;
+        height: 20px;
+        
+    }
+}
 
+@media screen and (min-width: 720px) and (max-width :992px){
+    body{
+        
+        font-size: 12px;
+       
+    }
+    .logo img{
+        width:7%;
+        
+    }
+    
+    header li{
+        margin-top: 40px;
+        display: flex;
+        padding :0 10px 10px 10px;
+        font-size: 9px;
+        justify-content: center;
+    
+    }
+    header a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-top: 20px;
+        display : flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+    
+    
+    .masuk{
+       
+        border:none;
+        margin-left: 100px;
+        margin-right: 1px;
+        height: 20px;
+        margin-top: 20px;
+        
+    }
+    .daftar{
+        border:none;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 1px;
+        height: 20px;
+        
+    }
+}
